@@ -113,9 +113,11 @@ Default layout, loads most of the pages
         </block>
 
         <block type="core/profiler" output="toHtml" name="core_profiler"/>
+        <!--inchoo start-->
         <reference name="right">
             <block type="core/template" name="catalog.sidenav" template="page/custom.phtml" before="cart_sidebar"/>
         </reference>
+        <!--inchoo end-->
     </default>
 
     <print translate="label" module="page">
